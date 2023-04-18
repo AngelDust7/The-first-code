@@ -1,0 +1,311 @@
+@media (min-device-width: 768px) and (max-device-width: 1023px){ 
+
+	body {
+		
+		/* display: flex; */
+		/* justify-content: center;
+		align-items: center; */
+		margin: auto;
+		background-color: black;
+		background-position: center;
+		/* background-image: url('../mainImages/Background.jpg'); */
+		background-attachment: fixed;
+		background-size: cover;
+	
+	}
+		
+		.Page {
+			margin-top: 100px;
+			margin-right: 250px;
+		}
+		
+		.Pagesss {
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+			margin-left: 330px;
+		}
+		
+		.IconOfNews {
+			display: flex;
+			justify-content: right;
+			margin-right: 235px;
+	 }
+	 
+	 .IconOfNews h1 {
+		 margin-right: -106px;
+	 }
+	 
+	 .IMPNEWS {
+		 position: absolute;
+		 width: 110px;
+		 /* box-shadow: 0 0 0px 1px white,
+								 0 0 32px rgba(0,0,0,1); */
+		 border-radius: 1px;
+		 top: 23px;
+	 }
+	
+	
+	
+		.WBG {	
+			width: 590px;
+			height: 1480px;
+			box-shadow: 2px 3px 20px rgba(0,0,0,1);
+			/* margin-left: 295px; */
+			
+			/* padding-bottom: 0;
+			margin-bottom: 0; */
+			/* position: absolute; */
+			margin-top: 65px;
+			margin-bottom: -60px;
+			
+			opacity: 0.4;
+			/* border: 3px solid;
+			border-color: rgb(107, 0, 0); */
+			
+		}
+	
+		.WBGBottom {	
+			width: 590px;
+			height: 500px;
+			box-shadow: 2px 3px 20px rgba(0,0,0,1);
+			/* margin-left: 295px; */
+			
+			/* padding-bottom: 0;
+			margin-bottom: 0; */
+			/* position: absolute; */
+	
+			
+			box-shadow: 2px 3px 20px rgba(0,0,0,1);
+			opacity: 0.9;
+			border: 3px solid;
+		}
+		
+	
+	
+	
+		
+		.MainArticle {
+			position: absolute;
+			display: flex;
+			flex-direction: column;
+			padding-top: 100px;
+			
+		}
+		
+		.MainNews {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 0px;
+			margin-left: 388px;
+		}
+		
+		.MainNews img{
+			width: 420px;
+			
+		}
+		
+		.MainNews h1 {
+			font-size: 22px;
+			/* max-width: 300px; */
+		}
+		
+		.BigOne {
+			display: flex;
+			margin-right: 0px;
+			flex-direction: column;
+			align-items: center;
+			margin-left: 335px;
+			
+		}
+		
+		.BigOne img{
+			width: 420px;
+		}
+	
+	
+	
+	
+	
+	
+		.Articles {
+			margin-top: 1600px;
+			/* flex-direction: row; */
+			position: absolute;
+			width: 80px;
+			padding: 10px 40px;
+			/* border: 1px solid #CCC; */
+			border-radius: 15px;
+			/* background: #eee; */
+			margin-right: 80px;
+		}
+		
+		.gallery {
+			overflow: hidden;
+			width: 500px;
+			
+		}
+		
+		.gallery ul {
+			height: 900px;
+			width: 9999px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			transition: margin-left 470ms;
+			
+			font-size: 0;
+		}
+		
+		.arrow {
+			position: absolute;
+			top: 250px;
+			padding: 0;
+			background: #ddd;
+			border-radius: 15px;
+			border: 1px solid gray;
+			font-size: 24px;
+			line-height: 24px;
+			color: #444;
+			display: block;
+		}
+		
+		.arrow:focus {
+			outline: none;
+		}
+		
+		.arrow:hover {
+			background: #ccc;
+			cursor: pointer;
+		}
+		
+		.prev {
+			left: 7px;
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+		}
+		
+		.prev img {
+			width: 30px;
+			transform: rotate(180deg);
+		}
+		
+		.next {
+			right: 7px;
+			outline: none; /* Для синий ободки */
+			border: 0;
+			background: transparent;
+			margin-right: -420px;
+		}
+		
+		.next img {
+			width: 30px;
+		}
+		
+		.gallery li {
+			
+			display: inline-block;
+		}
+		
+		.info img {
+			display: block;
+				width: 520px;
+				padding: 0 15px 0 5px;
+		}
+		
+		.info h1 {
+			text-align: center;
+			font-size: 25px;
+		}
+	
+	
+	
+	
+	
+	
+		
+		.slidePanel {
+			position: absolute;
+			left: -180px;
+			transition-duration: 0.45s;
+		}
+		
+		.slidePanel:hover {
+			left: 0px
+		}
+		
+		
+		
+		.BlackLineL {
+			width: 230px;
+			height: 100%;
+			top: 0;
+			position: fixed;
+			opacity: 0.3;
+			/* transition-duration: 0.3s; */
+		}
+		
+		
+		.arrowSlide {
+			position: absolute;
+			width: 40px;
+			height: 50px;
+			margin-top: -1530px;
+			margin-left: 210px;
+			position: fixed;
+		}
+	
+	
+	
+	
+	
+	
+		.footerBG {
+			position: absolute;
+			width: 1024px;
+				height: 80px;
+				background: #363636;
+				margin-bottom: -1200px;
+				opacity: 0.95;
+				
+		}
+		
+		
+		.footerBG p {
+			position: absolute;
+			right: 70px;
+			bottom: 13px;
+		}
+		
+		.footerBG img {
+			position: absolute;
+			width: 50px;
+			right: 10px;
+			bottom: 13px;
+		}
+		
+		
+	
+	
+	
+	
+		.RingsOfHell {
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			margin-top: -1550px;
+			margin-left: 60px;
+			position: fixed;
+		}
+		
+		
+		.RingsOfHell img {
+			width: 100px;	
+		}
+
+
+
+		
+	 }

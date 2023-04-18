@@ -1,0 +1,218 @@
+@media only screen and (max-device-width: 767px) { 
+
+	body {
+		
+		/* display: flex; */
+		/* justify-content: center;
+		align-items: center; */
+		margin: auto;
+		background-color: black;
+		background-position: center;
+		/* background-image: url('../mainImages/Background.jpg'); */
+		background-attachment: fixed;
+		background-size: cover;
+	
+	}
+		
+		.Page {
+			margin-top: 100px;
+			margin-left: 200px;
+			margin-right: 10px;
+		}
+		
+		.Pagesss {
+			display: flex;
+			flex-direction: column;
+			 align-items: end;
+			 
+			margin-left: 330px; 
+		}
+		
+		.IconOfNews {
+			display: flex;
+			justify-content: right;
+			margin-right: -180px;
+	 }
+	 
+	 .IconOfNews h1 {
+		 margin-right: -106px;
+	 }
+	 
+	 .IMPNEWS {
+		 position: absolute;
+		 width: 110px;
+		 /* box-shadow: 0 0 0px 1px white,
+								 0 0 32px rgba(0,0,0,1); */
+		 border-radius: 1px;
+		 top: 23px;
+	 }
+	
+	
+	
+		.WBG {	
+			width: 590px;
+			height: 1480px;
+			box-shadow: 2px 3px 20px rgba(0,0,0,1);
+			/* margin-left: 295px; */
+			
+			/* padding-bottom: 0;
+			margin-bottom: 0; */
+			/* position: absolute; */
+			margin-top: 65px;
+			margin-bottom: -60px;
+			
+			opacity: 0.4;
+			/* border: 3px solid;
+			border-color: rgb(107, 0, 0); */
+			
+		}
+
+	
+	
+	
+	
+	
+		
+		.slidePanel {
+			position: absolute;
+			left: -180px;
+			transition-duration: 0.45s;
+		}
+		
+		.slidePanel:hover {
+			left: 0px
+		}
+		
+		
+		
+		.BlackLineL {
+			width: 230px;
+			height: 100%;
+			top: 0;
+			position: fixed;
+			opacity: 0.3;
+			/* transition-duration: 0.3s; */
+		}
+		
+		
+		.arrowSlide {
+			position: absolute;
+			width: 40px;
+			height: 50px;
+			margin-top: -1530px;
+			margin-left: 210px;
+			position: fixed;
+		}
+	
+	
+	
+	
+	
+	
+		.footerBG {
+			position: absolute;
+			width: 940px;
+				height: 80px;
+				background: #363636;
+				margin-bottom: -1200px;
+				opacity: 0.95;
+				
+		}
+		
+		
+		.footerBG p {
+			position: absolute;
+			right: 70px;
+			bottom: 13px;
+		}
+		
+		.footerBG img {
+			position: absolute;
+			width: 50px;
+			right: 10px;
+			bottom: 13px;
+		}
+		
+		
+	
+	
+	
+	
+		.RingsOfHell {
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			margin-top: -1550px;
+			margin-left: 60px;
+			position: fixed;
+		}
+		
+		
+		.RingsOfHell img {
+			width: 100px;	
+		}
+	 }
+
+	 .IMGNEWS {
+		position: absolute;
+		width: 500px;
+		margin-top: 120px;
+		margin-right: 50px;
+	}
+	
+	
+	.TextNews {
+		position: absolute;
+		margin-top: 470px;
+		margin-right: 10px;
+		max-width: 582px;
+		max-height: 100px;
+		color: aliceblue;
+		font-size: 15px;
+		text-align: center;
+	}
+
+
+	.Categories {
+		display: flex;
+		position: absolute;
+		/* flex-direction: column; */
+		/* margin-top: 33px; */
+		margin-top: 100px;
+		margin-right: 10px;
+
+		/* margin: 100px 100px 0 0px; */
+	}
+	
+	.imagesOfNews {
+		display: flex;
+		flex-direction: column;
+		
+	}
+	
+	.imagesOfNews img {
+		margin-top: 21px;
+		width: 150px;
+		padding-bottom: 17px;
+		
+	}
+
+	.imagesOfNews .img {
+		height: 90px;
+	}
+	
+	.textOfNews {
+		display: flex;
+		flex-direction: column;
+		margin-top: 26px;
+		/* align-items: end; */
+		/* text-align: center  */
+	}
+	
+	.textOfNews h1 {
+		margin-left: 60px;
+		padding-bottom: 55px;
+		font-size: 15px;		
+		width: 350px;
+	} 
+	

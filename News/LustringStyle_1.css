@@ -1,0 +1,253 @@
+/* html { overflow-x: hidden; } */
+body {
+	
+	/* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+	margin: auto;
+	background-color: black;
+	/* background-position: center; */
+  background-image: url('../lustringImages/LustRing.png');
+  background-attachment: fixed;
+	background-size: cover;
+	
+}
+
+/* .BlackLine {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	opacity: 0.8;
+} */
+
+
+
+.IconOfNews {
+	 display: flex;
+   justify-content: right;
+   padding-right: 165px;
+}
+
+.IconOfNews h1 {
+	margin-right: -106px;
+}
+
+.IMPNEWS {
+	position: absolute;
+	width: 110px;
+	box-shadow: 0 0 0px 1px rgb(55, 10, 151),
+							0 0 32px rgb(55, 10, 151);
+	border-radius: 1px;
+	top: 23px;
+}
+
+.Page {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.Pagesss {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Pagesss img {
+	margin-bottom: 10px;
+}
+
+.WBG {
+	width: 990px;
+	height: 1515px;
+	box-shadow: 2px 3px 20px rgba(0,0,0,1);
+	opacity: 0.4;
+	border: 3px solid;
+	border-color: rgb(90, 15, 15);
+}
+
+
+.RingsOfHell {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	margin-top: -1550px;
+	margin-left: 60px;
+	position: fixed;
+}
+
+
+.RingsOfHell img {
+	width: 100px;
+	
+}
+
+#_1 {
+	transition-duration: 1s;
+}
+
+#_1:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(189, 14, 14);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_2 {
+	transition-duration: 1s;
+}
+
+#_2:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(253,189,64);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_3 {
+	transition-duration: 1s;
+}
+
+#_3:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(207,221,102);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_4 {
+	transition-duration: 1s;
+}
+
+#_4:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(255,30,87);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_5 {
+	transition-duration: 1s;
+}
+
+#_5:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(255, 255, 255);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_6 {
+	transition-duration: 1s;
+}
+
+#_6:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(122, 22, 222);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_7 {
+	transition-duration: 1s;
+}
+
+#_7:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(88,234,189);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+.footerBG {
+	position: absolute;
+	width: 100%;
+    height: 80px;
+    background: #363636;
+		bottom: -1020px;
+		opacity: 0.95;
+}
+
+
+.slidePanel {
+	position: absolute;
+	left: -180px;
+	transition-duration: 0.45s;
+}
+
+.slidePanel:hover {
+	left: 0px
+}
+
+
+
+.BlackLineL {
+	width: 230px;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	opacity: 0.3;
+	/* transition-duration: 0.3s; */
+}
+
+
+.arrowSlide {
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	margin-top: -1530px;
+	margin-left: 210px;
+	position: fixed;
+}
+
+.footerBG p {
+	position: absolute;
+	right: 70px;
+	bottom: 13px;
+}
+
+.footerBG img {
+	position: absolute;
+	width: 50px;
+	right: 10px;
+	bottom: 13px;
+}
+
+
+.IMGNEWS {
+	position: absolute;
+	width: 670px;
+	margin-left: 45px;
+	margin-top: 50px;
+}
+
+
+.TextNews {
+	position: absolute;
+	margin-top: 470px;
+	max-width: 900px;
+	max-height: 100px;
+	/* color: rgb(71, 71, 71); */
+	font-size: 19px;
+	/* text-align: center;
+	text-shadow: #000000 4px 1px 2px; */
+}
+
+
+#channel {
+	font-family: 'Rhythm-and-Jazz', cursive;
+ }
+
+ #ofshit {
+	font-family: 'Rhythm-and-Jazz', cursive;
+ }
+
+   @font-face {
+    font-family: Rhythm-and-Jazz; /* Гарнитура шрифта */
+    src: local('Rhythm-and-Jazz')
+				url(mainImages/Rhythm-and-Jazz.ttf) format("truetype");  /* Путь к файлу со шрифтом */
+   }
+   

@@ -1,0 +1,497 @@
+@media only screen and (min-device-width: 1024px){ 
+
+	/* html { overflow-x: hidden; } */
+body {
+	
+	/* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+	margin: auto;
+	background-color: black;
+	/* background-position: center; */
+  /* background-image: url('../mainImages/Background.jpg'); */
+  background-attachment: fixed;
+	background-size: cover;
+
+}
+
+/* .BlackLine {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	position: fixed;
+	opacity: 0.8;
+} */
+
+
+
+.IconOfNews {
+	 display: flex;
+   justify-content: right;
+   padding-right: 165px;
+}
+
+.IconOfNews h1 {
+	margin-right: -106px;
+}
+
+.IMPNEWS {
+	position: absolute;
+	width: 110px;
+	box-shadow: 0 0 0px 1px white,
+							0 0 32px rgba(0,0,0,1); 
+	border-radius: 1px;
+	top: 23px;
+}
+
+.Page {
+	display: flex;
+	justify-content: center;
+	margin-top: 150px;
+	
+}
+
+.Pagesss {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Pagesss img {
+	margin-bottom: 10px;
+}
+
+.WBG {
+	width: 990px;
+	height: 700px;
+	box-shadow: 2px 3px 20px rgba(0,0,0,1);
+	opacity: 0.9;
+	border: 3px solid;
+}
+
+.WBGBottom {
+	width: 990px;
+	height: 800px;
+	box-shadow: 2px 3px 20px rgba(0,0,0,1);
+	opacity: 0.9;
+	border: 3px solid;
+}
+
+.MainArticle {
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	padding-top: 130px;
+	
+}
+
+.MainNews {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -100px;
+	margin-right: 50px;
+	margin-left: 0
+}
+
+.MainNews img{
+	width: 220px;
+	padding: 1px;
+}
+
+.MainNews h1 {
+	font-size: 15.05px;
+	max-width: 300px;
+}
+
+.BigOne {
+	display: flex;
+	margin-right: 100px;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 100px;
+	margin-right: 25px;
+}
+
+.BigOne img{
+	width: 590px;
+}
+
+.RingsOfHell {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	margin-top: -1660px;
+	margin-left: 70px;
+	position: fixed;
+}
+
+
+.RingsOfHell img {
+	width: 80px;
+	
+}
+
+#_1 {
+	transition-duration: 1s;
+}
+
+#_1:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(189, 14, 14);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_2 {
+	transition-duration: 1s;
+}
+
+#_2:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(253,189,64);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_3 {
+	transition-duration: 1s;
+}
+
+#_3:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(207,221,102);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_4 {
+	transition-duration: 1s;
+}
+
+#_4:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(255,30,87);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_5 {
+	transition-duration: 1s;
+}
+
+#_5:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(255, 255, 255);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_6 {
+	transition-duration: 1s;
+}
+
+#_6:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(122, 22, 222);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+#_7 {
+	transition-duration: 1s;
+}
+
+#_7:hover {
+	transition-duration: 1s;
+	box-shadow: 0px 0px 100px rgb(88,234,189);
+	border-radius: 100px;
+	/* opacity: 0.9; */
+}
+
+.Articles {
+	margin-top: 810px;
+	/* flex-direction: row; */
+	position: absolute;
+	width: 890px;
+  padding: 10px 40px;
+  /* border: 1px solid #CCC; */
+  border-radius: 15px;
+  /* background: #eee; */
+
+}
+
+.gallery {
+	overflow: hidden;
+	width: 900px;
+	
+}
+
+.gallery ul {
+	height: 900px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: margin-left 470ms;
+  
+  font-size: 0;
+}
+
+.arrow {
+  position: absolute;
+  top: 250px;
+  padding: 0;
+  background: #ddd;
+  border-radius: 15px;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+
+.prev {
+  left: 7px;
+	outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+
+.prev img {
+	width: 30px;
+	transform: rotate(180deg);
+}
+
+.next {
+  right: 7px;
+	outline: none; /* Для синий ободки */
+  border: 0;
+  background: transparent;
+}
+
+.next img {
+	width: 30px;
+}
+
+.gallery li {
+	
+  display: inline-block;
+}
+
+.info img {
+	display: block;
+		width: 880px;
+		padding: 0 15px 0 5px;
+}
+
+.info h1 {
+	font-size: 23px;
+}
+
+.galleryHover {
+position: absolute;
+display: flex;
+margin-top: 725px;
+margin-left: -35px;
+
+}
+
+.galleryHover {
+	display: none;
+}
+
+.galleryHover img {
+	width: 900px;
+	display: inline-block;
+	margin: 0 -450px;	
+	
+}
+
+.UpText-1 {
+			position: absolute;
+			margin-left: -502px;
+			margin-top: 370px;
+			color: white;
+			font: bold 24px/45px Helvetica, Sans-Serif;
+			letter-spacing: -1px;
+			background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+			background: rgba(0, 0, 0, 0.7);
+			padding	: 10px;
+			
+			
+}
+
+.UpText-2 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-3 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-4 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-5 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-6 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-7 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-8 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+
+.UpText-9 {
+	position: absolute;
+	margin-left: -502px;
+			margin-top: 370px;
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+	background: rgba(0, 0, 0, 0.7);
+	padding	: 10px;
+
+}
+.footerBG {
+	position: absolute;
+	width: 100%;
+    height: 80px;
+    background: #363636;
+		margin-bottom: -280px;
+		opacity: 0.95;
+}
+
+
+.slidePanel {
+	position: absolute;
+	left: -180px;
+	transition-duration: 0.45s;
+}
+
+.slidePanel:hover {
+	left: 0px
+}
+
+
+
+.BlackLineL {
+	width: 230px;
+	height: 100%;
+	top: 0;
+	position: fixed;
+	opacity: 0.3;
+	/* transition-duration: 0.3s; */
+}
+
+
+.arrowSlide {
+	position: absolute;
+	width: 40px;
+	height: 50px;
+	margin-top: -1530px;
+	margin-left: 210px;
+	position: fixed;
+}
+
+.footerBG p {
+	position: absolute;
+	right: 70px;
+	bottom: 13px;
+}
+
+.footerBG img {
+	position: absolute;
+	width: 50px;
+	right: 10px;
+	bottom: 13px;
+}
+
+
+
+
+
+	 }
